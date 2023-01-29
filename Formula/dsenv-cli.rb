@@ -1,9 +1,9 @@
 class DsenvCli < Formula
-  version "0.0.10"
+  version "0.1.0"
   desc "DSenv - CLI tools"
   homepage "https://github.com/danielskowronski/homebrew-ds-env"
-  url "https://github.com/danielskowronski/dsenv/releases/download/v0.0.10/dsenv-cli.tgz"
-  sha256 "a7c960ad0c4c125879320be229c72215dedaab76a82cd87ff8b160be59ae7140"
+  url "https://github.com/danielskowronski/bundles-dsenv/releases/download/v0.1.0/dsenv-cli.tgz"
+  sha256 "a177526b2756571ec352c5e6f8aaa2f1b0e42a02b2bea8eac1249d6992f15732"
 
   depends_on :macos => :ventura
 

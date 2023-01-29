@@ -2,7 +2,7 @@
 TAG=$1
 
 version=`echo $TAG | tr -d 'v'`
-manifest_url="https://github.com/danielskowronski/dsenv/releases/download/${TAG}/assets.csv"
+manifest_url="https://github.com/danielskowronski/bundles-dsenv/releases/download/${TAG}/assets.csv"
 curl -sL $manifest_url -o assets.csv
 
 for asset in `cat assets.csv`; do

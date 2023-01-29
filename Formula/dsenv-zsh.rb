@@ -1,9 +1,9 @@
 class DsenvZsh < Formula
-  version "0.0.10"
+  version "0.1.0"
   desc "DSenv - zsh"
   homepage "https://github.com/danielskowronski/homebrew-ds-env"
-  url "https://github.com/danielskowronski/dsenv/releases/download/v0.0.10/dsenv-zsh.tgz"
-  sha256 "c8914820878c1b83c7aead235b9aaf12e761ca24baf98d15db166c856c690070"
+  url "https://github.com/danielskowronski/bundles-dsenv/releases/download/v0.1.0/dsenv-zsh.tgz"
+  sha256 "bf37b4c201b562c05430be8d81fd3a7826c1d1ab8ea773caadd12362a13262c0"
 
   depends_on :macos => :ventura
 

@@ -2,7 +2,7 @@
 
 Homebrew tap `danielskowronski/dsenv` hosting multiple formulae and casks related to installation of DS macOS workstations.
 
-Most of Formulaes are depended on asset bundles build from https://github.com/danielskowronski/dsenv/releases
+Most of Formulaes are depended on asset bundles built from [https://github.com/danielskowronski/bundles-dsenv/releases](https://github.com/danielskowronski/bundles-dsenv/releases)
 
 ## install
 
@@ -14,5 +14,5 @@ brew install --cask --verbose danielskowronski/dsenv/dsenv-common
 ### bumping assets versions
 
 ```bash
-./update_assets.sh v0.0.10
+./update_assets.sh v0.1.0
 ```
