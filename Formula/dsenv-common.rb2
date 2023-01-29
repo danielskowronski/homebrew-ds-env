@@ -1,0 +1,19 @@
+class DsenvCommon < Formula
+  version "0.0.9"
+  desc "DSenv - common"
+  homepage "https://github.com/danielskowronski/homebrew-ds-env"
+  url "https://github.com/danielskowronski/dsenv/releases/download/v0.0.9/dsenv-common.tgz"
+  sha256 "285d2f4abde25f2544ed8f62a7cce4b0d26fe2cd31140d7cd5484f3082d3e6ea"
+
+  depends_on :macos => :ventura
+  depends_on "danielskowronski/dsenv/dsenv-cli"
+  depends_on "danielskowronski/dsenv/dsenv-cloud"
+  depends_on "danielskowronski/dsenv/dsenv-dev"
+  depends_on "danielskowronski/dsenv/dsenv-golang"
+  depends_on "danielskowronski/dsenv/dsenv-zsh"
+
+  def install
+    bin.install "dsenv-common-install.sh"
+  end
+
+end

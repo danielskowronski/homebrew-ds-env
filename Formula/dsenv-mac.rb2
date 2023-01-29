@@ -1,0 +1,20 @@
+class DsenvMac < Formula
+  version "0.0.9"
+  desc "DSenv - macOS GUI"
+  homepage "https://github.com/danielskowronski/homebrew-ds-env"
+  url "https://github.com/danielskowronski/dsenv/releases/download/v0.0.9/dsenv-mac.tgz"
+  sha256 "5e137c9d0fa2674fc30ca01540c14f43439104a03abdab6668ac81219f6f1033"
+
+  depends_on :macos => :ventura
+
+
+
+
+  def install
+    share.install "dsenv-mac-Mosaic.mosaicprefs"
+    share.install "dsenv-mac-com.googlecode.iterm2.plist"
+    share.install "dsenv-mac-iStatMenusSettings.ismp"
+    share.install "dsenv-mac-iStatMenusSettings_MacBook.ismp"
+  end
+
+end
