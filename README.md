@@ -1,3 +1,3 @@
-# homebrew-ds-env
+# homebrew-dsenv
 
-Homebrew tap `danielskowronski/ds-env` hosting multiple formulae and casks related to installation of DS macOS workstations.
+Homebrew tap `danielskowronski/dsenv` hosting multiple formulae and casks related to installation of DS macOS workstations.
