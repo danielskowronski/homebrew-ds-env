@@ -1,10 +1,10 @@
 cask "dsenv-common" do
-  version "0.1.0"
-  sha256 "2b66e141262c49229352ba2c390c7f3a566db87fb9487777cb24320cdb5ef271"
-  url "https://github.com/danielskowronski/bundles-dsenv/releases/download/v0.1.0/dsenv-common.tgz"
+  version "0.1.3"
+  sha256 "e6d86ef2503e886356d2abaefea271728285311ddfc20cc423b589af203915fa"
+  url "https://github.com/danielskowronski/bundles-dsenv/releases/download/v0.1.3/dsenv-common.tgz"
   name "DSenv - common"
   desc "DSenv - common"
-  homepage "https://github.com/danielskowronski/homebrew-ds-env"
+  homepage "https://github.com/danielskowronski/homebrew-dsenv"
 
   depends_on macos: ">= :ventura"
 

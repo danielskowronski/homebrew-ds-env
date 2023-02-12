@@ -1,9 +1,9 @@
 class DsenvDev < Formula
-  version "0.1.0"
+  version "0.1.3"
   desc "DSenv - dev tools"
-  homepage "https://github.com/danielskowronski/homebrew-ds-env"
-  url "https://github.com/danielskowronski/bundles-dsenv/releases/download/v0.1.0/dsenv-dev.tgz"
-  sha256 "a1038193ca1bfb00854eb7b33bf12d37987646a616715ecb2bd663581805ac9f"
+  homepage "https://github.com/danielskowronski/homebrew-dsenv"
+  url "https://github.com/danielskowronski/bundles-dsenv/releases/download/v0.1.3/dsenv-dev.tgz"
+  sha256 "7d6d0630799e6920922d6556ab368b7b382c4ee4c896ade424a5c1be70b7f774"
 
   depends_on :macos => :ventura
 
