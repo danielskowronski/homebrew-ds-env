@@ -1,7 +1,7 @@
 cask "dsenv-common" do
-  version "0.1.3"
-  sha256 "e6d86ef2503e886356d2abaefea271728285311ddfc20cc423b589af203915fa"
-  url "https://github.com/danielskowronski/bundles-dsenv/releases/download/v0.1.3/dsenv-common.tgz"
+  version "0.1.4"
+  sha256 "7112761ee49bbc8aa1323219051c210aad191863f56d1886eec290b4a1c71feb"
+  url "https://github.com/danielskowronski/bundles-dsenv/releases/download/v0.1.4/dsenv-common.tgz"
   name "DSenv - common"
   desc "DSenv - common"
   homepage "https://github.com/danielskowronski/homebrew-dsenv"

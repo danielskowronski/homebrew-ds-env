@@ -1,7 +1,7 @@
 cask "dsenv-mac" do
-  version "0.1.3"
-  sha256 "10af20653841983fff9bf033b5da561b603593e06f7368fa33a1b7c015959444"
-  url "https://github.com/danielskowronski/bundles-dsenv/releases/download/v0.1.3/dsenv-mac.tgz"
+  version "0.1.4"
+  sha256 "a37aebda1f986209b5af8b6b3bf55798fa41517539a1e80aca9b3e2853bffe62"
+  url "https://github.com/danielskowronski/bundles-dsenv/releases/download/v0.1.4/dsenv-mac.tgz"
   name "DSenv - macOS GUI"
   desc "DSenv - macOS GUI"
   homepage "https://github.com/danielskowronski/homebrew-dsenv"
@@ -23,6 +23,8 @@ cask "dsenv-mac" do
   depends_on cask: "wireshark"
   depends_on cask: "obsidian"
   depends_on cask: "sublime-text"
+  depends_on cask: "alfred"
+  depends_on cask: "visual-studio-code"
    
   artifact "mac/dsenv-mac-Mosaic.mosaicprefs", target: "#{Dir.home}/dsenv/mac/Mosaic.mosaicprefs"
   artifact "mac/dsenv-mac-com.googlecode.iterm2.plist", target: "#{Dir.home}/dsenv/mac/com.googlecode.iterm2.plist"

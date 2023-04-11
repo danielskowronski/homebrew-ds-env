@@ -1,9 +1,9 @@
 class DsenvZsh < Formula
-  version "0.1.3"
+  version "0.1.4"
   desc "DSenv - zsh"
   homepage "https://github.com/danielskowronski/homebrew-dsenv"
-  url "https://github.com/danielskowronski/bundles-dsenv/releases/download/v0.1.3/dsenv-zsh.tgz"
-  sha256 "21f7be4c07fd96e467401d77c08c3459271e83a20d2676fdf6828c8caecf2db0"
+  url "https://github.com/danielskowronski/bundles-dsenv/releases/download/v0.1.4/dsenv-zsh.tgz"
+  sha256 "7e25694415b7803c469ec8d2ad6a0f2b1681068cae3ba7d0a14a4f8860623876"
 
   depends_on :macos => :ventura
 
@@ -13,6 +13,8 @@ class DsenvZsh < Formula
   depends_on "zsh-syntax-highlighting"
   depends_on "zsh-git-prompt"
   depends_on "fzf"
+  depends_on "zplug"
+  depends_on "romkatv/powerlevel10k/powerlevel10k"
 
   def install
     bin.install "dsenv-zsh-install.sh"
